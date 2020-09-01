@@ -27,7 +27,11 @@
 
 ;;; make your first emacs experience less miserable
 (use-package better-defaults
-  :straight t)
+  :straight t
+  :config
+  (tool-bar-mode)
+  (menu-bar-mode)
+  (scroll-bar-mode))
 
 ;;; completion stuff
 (use-package company-coq
