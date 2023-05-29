@@ -23,15 +23,9 @@
   :straight t
   :custom
   (coq-compile-before-require t)
-  (proof-splash-enable nil))
-
-;;; make your first emacs experience less miserable
-(use-package better-defaults
-  :straight t
-  :config
-  (tool-bar-mode)
-  (menu-bar-mode)
-  (scroll-bar-mode))
+  ;; Uncomment the next line to disable the anime icon
+  ;; (proof-splash-enable nil)
+  )
 
 ;;; completion stuff
 (use-package company-coq
